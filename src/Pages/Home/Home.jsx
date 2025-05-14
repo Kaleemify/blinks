@@ -73,7 +73,33 @@ const Home = () => {
         </section>
       </div>
 
-      <div className="containerservice">
+      
+      <section className="testimonials-section">
+        <h2 className="section-title">What Our Clients Say</h2>
+        <div className="testimonials-container">
+          <div className="testimonial-card">
+            <p className="testimonial-text">
+              “Blinks Consultant made the entire LLC registration process incredibly smooth and fast. Their team is knowledgeable, responsive, and truly committed to helping entrepreneurs succeed in the U.S. Highly recommended!”
+            </p>
+            <p className="client-name">– Sarah Khan, Startup Owner</p>
+          </div>
+
+          <div className="testimonial-card">
+            <p className="testimonial-text">
+              “I was amazed by how quickly they handled my tax setup and provided a full marketing plan tailored to my business. Their expertise in U.S. regulations and branding is next level.”
+            </p>
+            <p className="client-name">– Ahmed Raza, E-commerce Seller</p>
+          </div>
+
+          <div className="testimonial-card">
+            <p className="testimonial-text">
+              “From business formation to ongoing support, Blinks Consultant has been my trusted partner every step of the way. Their guidance is clear, and their service is always on point. I wouldn't work with anyone else.”
+            </p>
+            <p className="client-name">– Maria Sheikh, Freelancer</p>
+          </div>
+        </div>
+      </section>
+<div className="containerservice">
         <div className="card">
           <h2 className="title">Wyoming</h2>
           <p className="price">$800+ state fee</p>
@@ -137,32 +163,6 @@ const Home = () => {
           </Link>
         </div>
       </div>
-
-      <section className="testimonials-section">
-        <h2 className="section-title">What Our Clients Say</h2>
-        <div className="testimonials-container">
-          <div className="testimonial-card">
-            <p className="testimonial-text">
-              “Blinks Consultant made the entire LLC registration process incredibly smooth and fast. Their team is knowledgeable, responsive, and truly committed to helping entrepreneurs succeed in the U.S. Highly recommended!”
-            </p>
-            <p className="client-name">– Sarah Khan, Startup Owner</p>
-          </div>
-
-          <div className="testimonial-card">
-            <p className="testimonial-text">
-              “I was amazed by how quickly they handled my tax setup and provided a full marketing plan tailored to my business. Their expertise in U.S. regulations and branding is next level.”
-            </p>
-            <p className="client-name">– Ahmed Raza, E-commerce Seller</p>
-          </div>
-
-          <div className="testimonial-card">
-            <p className="testimonial-text">
-              “From business formation to ongoing support, Blinks Consultant has been my trusted partner every step of the way. Their guidance is clear, and their service is always on point. I wouldn't work with anyone else.”
-            </p>
-            <p className="client-name">– Maria Sheikh, Freelancer</p>
-          </div>
-        </div>
-      </section>
 
       <div className="containerstep">
         <section className="image-wrapper">

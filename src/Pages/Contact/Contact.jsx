@@ -11,7 +11,7 @@ const Contact = () => {
             <i className="fas fa-envelope"></i>
             <div>
               <h4>Email Us</h4>
-              <p></p>
+              <p>blinksconsaltants@gmail.com</p>
             </div>
           </div>
 
@@ -19,7 +19,7 @@ const Contact = () => {
             <i className="fab fa-whatsapp"></i>
             <div>
               <h4>Call/WhatsApp</h4>
-              <p></p>
+              <p>+1 (201) 277-1905</p>
             </div>
           </div>
         </div>

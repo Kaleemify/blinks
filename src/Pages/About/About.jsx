@@ -18,10 +18,6 @@ const About = () => {
               With over a decade of experience, our team ensures that your company is built on a strong foundation. We don’t just stop at registration – we help you launch with powerful marketing strategies, including website building, branding, and digital outreach.
             </p>
           </div>
-
-          <div className="assets/image.png">
-            <img src={about} alt="Blinks Consultant Office" />
-          </div>
         </div>
       </div>
 

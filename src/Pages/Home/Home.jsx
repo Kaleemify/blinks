@@ -2,25 +2,20 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
 
-// const Home = () => {
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//   };
-
+const Home = () => {
   const handleSubmit = () => {
-  const name = document.getElementById("name").value.trim();
-  const email = document.getElementById("email").value.trim();
-  const message = document.getElementById("message").value.trim();
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const message = document.getElementById("message").value.trim();
 
-  if (!name || !email) {
-    alert("Please enter your name and email.");
-    return;
-  }
+    if (!name || !email) {
+      alert("Please enter your name and email.");
+      return;
+    }
 
-  const url = `https://wa.me/923001234567?text=Hi, my name is ${name}, email: ${email}, message: ${message || "No message provided."}`;
-  window.open(url, "_blank");
-};
-
+    const url = `https://wa.me/923001234567?text=Hi, my name is ${name}, email: ${email}, message: ${message || "No message provided."}`;
+    window.open(url, "_blank");
+  };
 
   return (
     <div>
@@ -71,7 +66,7 @@ import './home.css';
           <div>
             <h2>Blinks Consultant</h2>
             <p>
-              Welcome to Blinks Consultant — your trusted partner for quick and reliable company formation. We help businesses get started and grow in the US with fast registration, expert tax support, and smart marketing strategies. Let’s bring your business vision to life today!
+              Welcome to Blinks Consultant — your trusted partner for quick and reliable company formation. We help businesses get started and grow in the US with fast registration, expert tax support, and smart marketing strategies. Let's bring your business vision to life today!
             </p>
           </div>
           <Link to="/about">
@@ -82,39 +77,39 @@ import './home.css';
         <section className="right-section">
           <h2>Our Special Services</h2>
           <p>
-            For over ten years, we’ve been providing personalized services that help businesses succeed. From US company formation and sales tax management to effective marketing solutions — including powerful Facebook ads and influencer campaigns — we’ve got you covered.
+            For over ten years, we've been providing personalized services that help businesses succeed. From US company formation and sales tax management to effective marketing solutions — including powerful Facebook ads and influencer campaigns — we've got you covered.
           </p>
           <Link to="/services" className="view-link">View All Service →</Link>
         </section>
       </div>
 
-      
       <section className="testimonials-section">
         <h2 className="section-title">What Our Clients Say</h2>
         <div className="testimonials-container">
           <div className="testimonial-card">
             <p className="testimonial-text">
-              “Blinks Consultant made the entire LLC registration process incredibly smooth and fast. Their team is knowledgeable, responsive, and truly committed to helping entrepreneurs succeed in the U.S. Highly recommended!”
+              "Blinks Consultant made the entire LLC registration process incredibly smooth and fast. Their team is knowledgeable, responsive, and truly committed to helping entrepreneurs succeed in the U.S. Highly recommended!"
             </p>
             <p className="client-name">– Sarah Khan, Startup Owner</p>
           </div>
 
           <div className="testimonial-card">
             <p className="testimonial-text">
-              “I was amazed by how quickly they handled my tax setup and provided a full marketing plan tailored to my business. Their expertise in U.S. regulations and branding is next level.”
+              "I was amazed by how quickly they handled my tax setup and provided a full marketing plan tailored to my business. Their expertise in U.S. regulations and branding is next level."
             </p>
             <p className="client-name">– Ahmed Raza, E-commerce Seller</p>
           </div>
 
           <div className="testimonial-card">
             <p className="testimonial-text">
-              “From business formation to ongoing support, Blinks Consultant has been my trusted partner every step of the way. Their guidance is clear, and their service is always on point. I wouldn't work with anyone else.”
+              "From business formation to ongoing support, Blinks Consultant has been my trusted partner every step of the way. Their guidance is clear, and their service is always on point. I wouldn't work with anyone else."
             </p>
             <p className="client-name">– Maria Sheikh, Freelancer</p>
           </div>
         </div>
       </section>
-<div className="containerservice">
+
+      <div className="containerservice">
         <div className="card">
           <h2 className="title">Wyoming</h2>
           <p className="price">$800+ state fee</p>

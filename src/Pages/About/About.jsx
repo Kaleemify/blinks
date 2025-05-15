@@ -19,7 +19,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="assets/image.png">
+          <div className="assets/about.png">
             <img src={about} alt="Blinks Consultant Office" />
           </div>
         </div>

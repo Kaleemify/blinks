@@ -13,7 +13,7 @@ const Home = () => {
       return;
     }
 
-    const url = `https://wa.me/923001234567?text=Hi, my name is ${name}, email: ${email}, message: ${message || "No message provided."}`;
+    const url = `https://wa.me/923107018321?text=Hi, my name is ${name}, email: ${email}, message: ${message || "No message provided."}`;
     window.open(url, "_blank");
   };
 

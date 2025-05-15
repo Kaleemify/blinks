@@ -2,10 +2,25 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
 
-const Home = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
+// const Home = () => {
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//   };
+
+  const handleSubmit = () => {
+  const name = document.getElementById("name").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const message = document.getElementById("message").value.trim();
+
+  if (!name || !email) {
+    alert("Please enter your name and email.");
+    return;
+  }
+
+  const url = `https://wa.me/923001234567?text=Hi, my name is ${name}, email: ${email}, message: ${message || "No message provided."}`;
+  window.open(url, "_blank");
+};
+
 
   return (
     <div>

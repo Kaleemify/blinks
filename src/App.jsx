@@ -5,7 +5,8 @@ import About from "./Pages/About/About"
 import Contact from "./Pages/Contact/Contact"
 import Blogs from "./Pages/Blogs/Blogs"
 import Services from "./Pages/Services/Services"
-import NotFound from './Error/Notfound'
+import Contact from "./Pages/Contact/Contact"
+// import NotFound from './Error/Notfound'
 import BlogForm from "./PrivateRoute/BlogForm"
 import BlogDetail from "./BlogDetails/Blogdetails.jsx"
 

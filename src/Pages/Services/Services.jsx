@@ -1,6 +1,7 @@
+// pages/Services.jsx
 import React from 'react';
 import './services.css';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   return (
@@ -8,55 +9,23 @@ const Services = () => {
       <main>
         <h1>Services</h1>
         <div className="services-container">
-          <div className="service reveal">
-            <h2>EIN</h2>
-            <p>$59</p>
-            <a href="contact.html">
-              <button>Contact Us</button>
-            </a>
-          </div>
-          <div className="service reveal">
-            <h2>LLC</h2>
-            <p>$259</p>
-            <a href="contact.html">
-              <button>Contact Us</button>
-            </a>
-          </div>
-          <div className="service reveal">
-            <h2>C-Corp Formation</h2>
-            <p>$259</p>
-            <a href="contact.html">
-              <button>Contact Us</button>
-            </a>
-          </div>
-          <div className="service reveal">
-            <h2>ITIN</h2>
-            <p>$249</p>
-            <a href="contact.html">
-              <button>Contact Us</button>
-            </a>
-          </div>
-          <div className="service reveal">
-            <h2>Reseller Permit</h2>
-            <p>$259</p>
-            <a href="contact.html">
-              <button>Contact Us</button>
-            </a>
-          </div>
-          <div className="service reveal">
-            <h2>Sales Tax Compliance</h2>
-            <p>$199</p>
-            <a href="contact.html">
-              <button>Contact Us</button>
-            </a>
-          </div>
-          <div className="service reveal">
-            <h2>Website Building</h2>
-            <p>$350</p>
-            <a href="contact.html">
-              <button>Contact Us</button>
-            </a>
-          </div>
+          {[
+            { title: 'EIN', price: '$59' },
+            { title: 'LLC', price: '$259' },
+            { title: 'C-Corp Formation', price: '$259' },
+            { title: 'ITIN', price: '$249' },
+            { title: 'Reseller Permit', price: '$259' },
+            { title: 'Sales Tax Compliance', price: '$199' },
+            { title: 'Website Building', price: '$350' },
+          ].map((service, index) => (
+            <div className="service reveal" key={index}>
+              <h2>{service.title}</h2>
+              <p>{service.price}</p>
+              <Link to="/contact">
+                <button>Contact Us</button>
+              </Link>
+            </div>
+          ))}
         </div>
       </main>
 
@@ -67,7 +36,7 @@ const Services = () => {
             <p>Your trusted partner for LLC registration, tax guidance, and smart marketing in the USA.</p>
           </div>
 
-           <div className="footer-links">
+          <div className="footer-links">
             <h4>Quick Links</h4>
             <ul>
               <li><Link to="/">Home</Link></li>

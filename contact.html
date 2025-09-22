@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Contact - Blinks Consaltant</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <a href="index.html"><img src="assets/logo.png" alt="" height="40"></a> </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="service.html">Services</a>
+      <a href="blog.html">Blogs</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+<!-- Contact Info Section -->
+<section style="background-color: #022d5c; color: white; padding: 50px 20px;">
+  <div style="max-width: 1000px; margin: auto; display: flex; flex-wrap: wrap; gap: 40px; align-items: center; justify-content: space-between;">
+    
+    <div style="display: flex; align-items: center; gap: 15px;">
+      <i class="fas fa-envelope text-white" style="font-size: 24px;"></i>
+      <div>
+        <h4 style="margin: 0; font-size: 18px;">Email Us</h4>
+        <p style="margin: 0;"></p>
+      </div>
+    </div>
+    
+    <div style="display: flex; align-items: center; gap: 15px;">
+      <i class="fab fa-whatsapp text-white" style="font-size: 24px;"></i>
+      <div>
+        <h4 style="margin: 0; font-size: 18px;">Call/WhatsApp</h4>
+        <p style="margin: 0;"></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <div class="form-container">
+  <h2>Contact Us on WhatsApp</h2>
+  <form id="whatsappForm">
+    <div class="form-group">
+      <label for="name">Full Name *</label>
+      <input type="text" id="name" name="name" required />
+      <div id="nameError" class="error"></div>
+    </div>
+    <div class="form-group">
+      <label for="email">Email Address *</label>
+      <input type="email" id="email" name="email" required />
+      <div id="emailError" class="error"></div>
+    </div>
+    <div class="form-group">
+      <label for="message">Message (optional)</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+    </div>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+</div>
+
+
+
+    <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3>Blinks Consultant</h3>
+      <p>Your trusted partner for LLC registration, tax guidance, and smart marketing in the USA.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="blog.html">Blogs</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>Email: </p>
+      <p>Phone: </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Blinks Consultant. All rights reserved. <br>
+      <a href="http://www.kaleemify.com/" style="color: white;">Build by Kaleemify Company</a>
+    </p>
+  </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>

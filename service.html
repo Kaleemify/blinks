@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Services - Blinks Consaltant</title>
+    <style>
+        body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f8fafc;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+main h1 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.service h2 {
+  font-size: 20px;
+  color: #001369;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.service button {
+  background-color: #001369;
+  color: white;
+  padding: 10px 16px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.service button:hover {
+  background-color: #3344aa;
+}
+
+    </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <a href="index.html"><img src="assets/logo.png" alt="" height="40"></a> </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="service.html">Services</a>
+      <a href="blog.html">Blogs</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </header>
+
+
+    <main>
+        <br>
+        <center><h1 style="color: #001369;">Services</h1></center>
+        <br>
+        <div class="services-container">
+            <div class="service reveal">
+                <h2>EIN</h2>
+                <p>$59</p>
+                <a href="contact.html"><button>Contact Us</button></a>
+            </div>
+            <div class="service reveal">
+                <h2>LLC</h2>
+                <p>$259</p>
+                <a href="contact.html"><button>Contact Us</button></a>
+            </div>
+            <div class="service reveal">
+                <h2>C-Corp Formation</h2>
+                <p>$259</p>
+                <a href="contact.html"><button>Contact Us</button></a>
+            </div>
+            <div class="service reveal">
+                <h2>ITIN</h2>
+                <p>$249</p>
+                <a href="contact.html"><button>Contact Us</button></a>
+            </div>
+            <div class="service reveal">
+                <h2>Reseller Permit</h2>
+                <p>$259</p>
+                <a href="contact.html"><button>Contact Us</button></a>
+            </div>
+            <div class="service reveal">
+                <h2>Sales Tax Compliance</h2>
+                <p>$199</p>
+                <a href="contact.html"><button>Contact Us</button></a>
+            </div>
+            <div class="service reveal">
+                <h2>Website Building</h2>
+                <p>$350</p>
+                <a href="contact.html"><button>Contact Us</button></a>
+            </div>
+        </div>
+    </main>
+
+
+
+
+    <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3>Blinks Consultant</h3>
+      <p>Your trusted partner for LLC registration, tax guidance, and smart marketing in the USA.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="blog.html">Blogs</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <p>Email: </p>
+      <p>Phone: </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Blinks Consultant. All rights reserved. <br>
+      <a href="http://www.kaleemify.com/" style="color: white;">Build by Kaleemify Company</a>
+    </p>
+  </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
